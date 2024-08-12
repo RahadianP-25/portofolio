@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- Boxicons ---------- -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
+
+    <title>Portfolio | Rahadian</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Portofolio</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Experience</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Rahadian Pramudana</span>
+            </div>
+            <div class="featured-name">
+              <p>Hello <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>Saya ingin menjadi sebuah youtuber game, karena salah satu hobi saya bermain sebuah game.</p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn blue-btn">Hire Me</button>
+            </div>
+            <div class="social_icons">
+              <a href="https://www.tiktok.com/@yaaiyannn?_t=8oPjgybhHLl&_r=1"  target="_blank"> 
+                <div class="icon"><i class="bx bxl-tiktok"></i></div>
+              </a>
+              <a href="https://youtube.com/@masiyan1806?si=L4aWQOkPFj3k_Jhm" target="_blank">
+                <div class="icon"><i class="bx bxl-youtube"></i></div>
+              </a>
+              <a href="https://www.instagram.com/maslexss?igsh=MW85a2NvNDdqYXBwMg==" target="_blank">
+                <div class="icon"><i class="bx bxl-instagram-alt"></i></div>
+              </a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/ian.jpg" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I have several experiences, one of which is in the field of programming, I used to be a programmer, in the program I have a little expertise in HTML, CSS, and JavaScript.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span> 
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>PHP</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- Experience ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Experience</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="uil uil-briefcase-alt"></i>
+              <h3>Prakerin</h3>
+              <label>Magang Di Axioo</label>
+              <!-- <img src="assets/images/prakerin.jpg" width="250"> -->
+            </div>
+            <div class="project-box">
+              <i class="uil uil-users-alt"></i>
+              <h3>Axioo</h3>
+              <label>Siswa Binaan Axioo</label>
+            </div>
+            <div class="project-box">
+              <i class="uil uil-award"></i>
+              <h3>Robotik</h3>
+              <label>Pelatihan Rootik</label>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contact</h1>
+            <span>Contact Person</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p><i class="uil uil-envelope"></i> Email: rahadianpramudana34@gmial.com</p>
+                <p><i class="uil uil-phone"></i> Telp : +62 856 - 5517 -  0511</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" />
+                  <input type="text" class="input-field" placeholder="Email" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn">Send <i class="uil uil-message"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Rahadian Pramudana .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Experience</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <a href="https://www.tiktok.com/@yaaiyannn?_t=8oPjgybhHLl&_r=1" target="_blank">
+            <div class="icon"><i class="bx bxl-tiktok"></i></div>
+          </a>
+          <a href="https://youtube.com/@masiyan1806?si=L4aWQOkPFj3k_Jhm" target="_blank">
+            <div class="icon"><i class="bx bxl-youtube"></i></div>
+          </a>
+          <a href="https://www.instagram.com/maslexss?igsh=MW85a2NvNDdqYXBwMg==" target="_blank">
+            <div class="icon"><i class="bx bxl-instagram-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none">Rahadian</a> - All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
