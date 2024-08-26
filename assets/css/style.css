@@ -372,17 +372,11 @@ h3 {
   flex-direction: column;
   width: 30%;
   height: 250px;
-  background: rgba(0, 0, 0, 0.8) url(../images/Binaan.jpg) no-repeat;
-  background-size: 100%;
+  background: var(--color-white);
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
-}
-.project-box:first-child {
-  background-image: url(../images/prakerin.jpg);
-}
-.project-box:last-child {
-  background-image: url(../images/Robotik.jpg);
+  text-decoration: none;
 }
 .project-box > i {
   font-size: 50px;
